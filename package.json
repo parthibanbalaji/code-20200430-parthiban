@@ -1,0 +1,30 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "This module will help to find BMI.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "mocha dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthibanbalaji/code-20200430-parthiban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthibanbalaji/code-20200430-parthiban/issues"
+  },
+  "homepage": "https://github.com/parthibanbalaji/code-20200430-parthiban#readme",
+  "devDependencies": {
+    "@types/chai": "~4.2.17",
+    "@types/mocha": "~8.2.2",
+    "@types/node": "~15.0.1",
+    "chai": "~4.3.4",
+    "mocha": "~8.3.2",
+    "tslint": "~5.12.1",
+    "typescript": "~3.8.3"
+  }
+}
